@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <!--signando un titulo => h1 ... h6-->
+    <h1>platillos mas deliciosos</h1>
+</header>
+<!--menu de navegacion-->
+<nav>
+    <!--listas ordenadas <ol> y listas desordenadas <ul>-->
+    <ul>
+        <!--elementos de la lista <il>
+                    -->
+        <li>
+            <!--hipervinculos <a>: redirecciona a un enlace o archivo que enviamos 
+                            destro de la etiqueta <a> existe la propiedad href
+                                href = es la ruta donde vamos a redireccionar-->
+            <a href="./index.html">principal</a>
+
+        </li>
+        <li>
+            <a href="./platillos.html">plantillos</a>
+        </li>
+        <li>
+            <a href="#">ubicacion</a>
+        </li>
+    </ul>
+</nav>
+<section>
+    <div>
+        <p>
+            <!--esta etiqueta muestra en negrito un mensaje importante-->
+            <strong></strong>
+        </p>
+        <!--<iframe>: adjuntar videos, imagenes, documentos, codigo, mapa de google-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/anItHhny4qY" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <iframe src="./ALIMVASA SA de CV.pdf" frameborder="0"></iframe>
+    </div>
+    <div>
+        <!--dorder: muestra el brode de la tabla
+        cellpadding: es el espacio del contenido con la celda
+        cellspacing: es la forma de como queremos que se vea el border (si demasiado plano o grueso) todas estas propiedades ya estan defasadas es mala practica si las utilizas-->
+        <table border="1" cellpadding="5" cellspacing="0">
+            <!--encabezado-->
+            <thead>
+                <!--<th> titulos-->
+                <th>platollo</th>
+                <th>descripcion</th>
+                <th>precio</th>
+            </thead>
+            <!--cuerpo-->
+            <tbody>
+                <!--<tr> asignacion de filas-->
+                <tr>
+                    <!--asignacion de columnas-->
+                    <td>pollo en crema</td>
+                    <td>es una pechuga bañada a la plancha</td>
+                    <td>$2.50</td>
+                </tr>
+                <tr>
+                    <!--asignacion de columnas-->
+                    <td>carne asada</td>
+                    <td>es un combo que lleva chimol,ensalada de papas y aderezo</td>
+                    <td>$3.75</td>
+                </tr>
+                <tr>
+                    <!--asignacion de columnas-->
+                    <td>lasaña</td>
+                    <td>es una lasaña que podria ser carne</td>
+                    <td>$3.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>seccion de bebidas</h3>
+        <table  border="1" cellpadding="5" cellspacing="0">
+            <thead>
+                <!--<th> titulos-->
+                <th>bebidas</th>
+                <th>marca</th>
+                <th>precio</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>jugo de naranja</td>
+                    <td>la granja</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>licuado guineo</td>
+                    <td>natural</td>
+                    <td rowspan="3">$0.75</td>
+                </tr>
+                <tr>
+                    <td>soda</td>
+                    <td>coca cola</td>
+                    
+                </tr>
+                <tr>
+                    <td>limonada</td>
+                    <td>natural</td>
+                    
+                </tr>
+            </tbody>
+            <!--pie de pagina <tfoot>-->
+                <tfoot>
+                    <tr>
+                        <td colspan="3">El Sazon</td>
+                        
+                    </tr>
+                </tfoot>
+        </table>
+    </div>
+</section>
+<body>
+    
+</body>
+</html>
