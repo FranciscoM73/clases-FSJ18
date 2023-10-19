@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--.bg:color de fondo 
+        text-success: asigna el color del texto
+    padding, margin 
+    p-o:0
+    p-1: 0.25rem (4px)
+    p-2: 0.50rem
+    p-3: 1rem
+    p-4: 1.50rem
+    p-5: 3rem 
+
+    pt-2, mt-4 = arriba
+    pb-2, mb-4 = abajo
+    ps-2, ms-4 = derecha
+    pe-2, me-4 => izquierda
+
+    px-2, mx-2 => izquierda y derecha
+    py-2, my-2 => abajo y arriba
+
+    -->
+    <h1 class="text-center text-success bg-light py-4 px-2">hola bootstrap</h1>
+
+    <!--container: genera un margen de isquierda a derecha automaticamente-->
+    <main class="container d-flex justify-content-center p-4">
+        <section><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo vel debitis sed dolorem laudantium ratione vero optio earum aliquam aliquid animi odio quam magnam neque quidem ut, illum at.</p></section>
+        <section><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo vel debitis sed dolorem laudantium ratione vero optio earum aliquam aliquid animi odio quam magnam neque quidem ut, illum at.</p></section>
+    </main>
+   <div class="container">
+      <div class="row"><!--con row indicas que se  trabaja con columnas-->
+          <article class="col-md-4 col-md-6 pt-sm-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic, quas aut maxime, iusto repudiandae placeat animi tenetur doloribus commodi a. Eaque neque ex fugit voluptate quas iste distinctio expedita.
+          </article>
+          <article class="col-md-4 col-md-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic, quas aut maxime, iusto repudiandae placeat
+            animi tenetur doloribus commodi a. Eaque neque ex fugit voluptate quas iste distinctio expedita.
+          </article>
+          <article class="col-md-4 col-md-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti hic, quas aut maxime, iusto repudiandae placeat
+            animi tenetur doloribus commodi a. Eaque neque ex fugit voluptate quas iste distinctio expedita.
+          </article>
+      </div>
+   </div>
+</body>
+</html>

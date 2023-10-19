@@ -1,0 +1,13 @@
+
+
+/**llamando al selector id*/
+#contenedor{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /**tipo de fuente*/
+    /**px, rem 
+    1rem = 16px
+    1.5rem =24px*/
+    font-size: 1.5rem; /**tamaño de la fuente*/
+    border: 2px dotted black;
+    text-align: center;
+    padding: 15px; /**espacio del contenido y su caja*/
+}

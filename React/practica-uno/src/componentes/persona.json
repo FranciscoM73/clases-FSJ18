@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "nombre": "Francisco Marin",
+      "edad": 28,
+      "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+      "id": 2,
+    "nombre": "Augusto Marin",
+    "edad": 28,
+    "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    },
+    {
+     "id": 3,
+      "nombre": "Joaquin Marin",
+      "edad": 28,
+      "imagen": "https://cdn.icon-icons.com/icons2/1879/PNG/512/iconfinder-1-avatar-2754574_120513.png"
+    }
+]
